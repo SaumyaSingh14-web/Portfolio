@@ -3,8 +3,8 @@ import Navele from "./Navele";
 function Navbar(){
     return(
         <div>
-            <ul className="bg-slate-200 md:flex justify-end">
-                <Navele/>
+            <ul className="bg-orange-50">
+                <Navele />
             </ul>
             
         </div>

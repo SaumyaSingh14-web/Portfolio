@@ -1,12 +1,8 @@
 function Tagline(props){
     return(
-        <div>
-            <div className={`sm:text-lg md:text-5xl font-sans font-bold text-black ${props.className}`}>{props.tagLine}</div>
-            <div className={`uppercase sm:text-xs font-semibold md:my-4 md:text-sm text-gray-500 ${props.className}`}>{props.tagLine2}</div>
-        </div>
-
+            <div className={`text-orange-100 p-12 font-bold text-3xl mt-12 text-center ${props.className}`}>{props.tagline}</div>
     );
 
 }
 
-export default Tagline;
+export default Tagline; 
