@@ -1,13 +1,13 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Tagline from "./components/Tagline";
+import Title from "./components/Title";
 
 function App() {
   return (
     <div>
       <Navbar />
       <div className="bg-slate-900 flex min-h-screen min-w-full ">
-        <Tagline tagline="Hi, I'm Saumya Singh" />
+        <Title title="Hi, I'm Saumya Singh" />
       </div>
     </div>
   );
