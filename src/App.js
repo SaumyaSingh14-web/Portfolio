@@ -6,8 +6,11 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div className="bg-slate-900 flex min-h-screen min-w-full ">
-        <Title title="Hi, I'm Saumya Singh" />
+      <div className="bg-slate-900 min-h-screen min-w-full ">
+        <Title
+          title="Hi, I'm Saumya Singh"
+          description="A computer sience student passionate about programming and development."
+        />
       </div>
     </div>
   );

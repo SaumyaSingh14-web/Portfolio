@@ -1,7 +1,10 @@
 function Title(props){
     return(
-            <div className={`text-orange-100 p-12 font-bold text-3xl mt-12 text-center ${props.className}`}>{props.title}</div>
-    );
+            <div>
+                <div className={`text-orange-100 p-12 font-bold text-3xl text-center ${props.className}`}>{props.title}</div>
+                <div className={`text-orange-50 text-md text-center ${props.className}`}>{props.description}</div>
+            </div>
+            );
 
 }
 
